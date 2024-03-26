@@ -23,7 +23,7 @@ def vigenere(message, key, direction=1):
             final_message += alphabet[new_index]
     
     return final_message
-
+k
 def encrypt(message, key):
     return vigenere(message, key)
     
